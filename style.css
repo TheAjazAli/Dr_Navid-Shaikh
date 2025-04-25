@@ -577,17 +577,6 @@
             position: relative;
             padding-bottom: 10px;
         }
-
-        .footer-col h3::after {
-            content: '';
-            position: absolute;
-            width: 50px;
-            height: 2px;
-            background-color: var(--accent);
-            bottom: 0;
-            left: 0;
-        }
-
         .footer-links {
             list-style: none;
         }
@@ -608,6 +597,7 @@
 
         .social-links {
             display: flex;
+            justify-content: center;
             gap: 15px;
             margin-top: 20px;
         }
